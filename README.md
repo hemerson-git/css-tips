@@ -5,4 +5,4 @@ Here I'll post some css tricks so we can improve our coding knowledge, together.
 <img src="./001_inset/code.png" width="250px"/>
 
 ## 002 - CSS Color Variables
-<img src="/002_css_colors_variables" width="250px"/>
+<img src="/002_css_colors_variables/code.png" width="250px"/>
