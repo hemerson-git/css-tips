@@ -5,8 +5,13 @@
   --warning: #F1FFC4;
   --danger: #F26A8D;
   --success: #478978;
+
+  --text-regular: 1rem;
+  --text-medium: 2rem;
+  --text-large: 3.5rem;
 }
 
 p {
   color: var(--info);
+  font-size: var(--text-regular);
 }
