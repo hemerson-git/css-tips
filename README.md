@@ -12,3 +12,6 @@ Here I'll post some css tricks so we can improve our coding knowledge, together.
 
 ## 004 - Line Clamp
 <img src="/004_line_clamp/code.png" width="250px"/>
+
+## 005 - Gamer Button
+<img src="/005_gamer_button/code.png" width="250px"/>

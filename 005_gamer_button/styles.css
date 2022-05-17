@@ -1,0 +1,67 @@
+:root {
+  --dark: #001B2E;
+  --info: #89BBFE;
+  --light: #CAE5FF;
+  --warning: #F1FFC4;
+  --danger: #F26A8D;
+  --success: #478978;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  position: relative;
+
+  letter-spacing: 1px;
+  border-radius: .25rem;
+  border: 1px solid var(--ligth);
+
+  cursor: pointer;
+  height: 3.375rem;
+  width: 300px;
+  text-transform: capitalize;
+  transition: filter .3s linear;
+}
+
+.btn:hover {
+  filter: brightness(1.2);
+}
+
+.btn-rgb {
+  box-shadow: 0 0 0 var(--info);
+}
+
+.btn-rgb:hover {
+  animation: rotateColors 3s linear infinite alternate-reverse;
+}
+
+@keyframes rotateColors {
+  0% {
+    filter: hue-rotate(0deg);
+    box-shadow: 0 0 0 var(--info);
+  }
+
+  100% {
+    box-shadow: 0 0 32px var(--info);
+    filter: hue-rotate(360deg);
+  }
+}
