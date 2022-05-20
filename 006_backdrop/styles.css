@@ -31,12 +31,18 @@ html {
 .transparent-card {
   color: white;
   width: 450px;
-  padding: 40px;
   border-radius: 8px;
   box-shadow: 0 0 8px rgba(0, 0, 0, .05);
   border-top: 1px solid rgba(255, 255, 255, .4);
   background-color: rgba(255, 25D5, 255, .1);
   overflow: hidden;
+  user-select: none;
+}
+
+.transparent-card p {
+  padding: 40px;
+  padding-bottom: 0;
+  margin-bottom: 16px;
 }
 
 .transparent-card {
@@ -52,4 +58,24 @@ html {
   height: 100%;
   background-color: rgba(255, 255, 255, .1);
   transform: skew(45deg) translateX(-40%);
+}
+
+.transparent-card footer {
+  position: relative;
+  z-index: 2;
+
+  text-align: center;
+  background-color: rgba(255, 255, 255, .2);
+  padding: 24px 16px;
+}
+
+.transparent-card footer a {
+  color: var(--light);
+  text-underline-offset: 4px;
+  cursor: pointer;
+  transition: color .3s ease-in-out;
+}
+
+.transparent-card footer a:hover {
+  color: var(--info);
 }
