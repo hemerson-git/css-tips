@@ -1,0 +1,55 @@
+:root {
+  --dark: #001B2E;
+  --info: #89BBFE;
+  --light: #CAE5FF;
+  --warning: #F1FFC4;
+  --danger: #F26A8D;
+  --success: #478978;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: url(./assets/imgs/bg_image.png) no-repeat bottom right;
+  background-size: cover;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.transparent-card {
+  color: white;
+  width: 450px;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .05);
+  border-top: 1px solid rgba(255, 255, 255, .4);
+  background-color: rgba(255, 25D5, 255, .1);
+  overflow: hidden;
+}
+
+.transparent-card {
+  backdrop-filter: blur(24px);
+}
+
+.transparent-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, .1);
+  transform: skew(45deg) translateX(-40%);
+}

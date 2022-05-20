@@ -15,3 +15,6 @@ Here I'll post some css tricks so we can improve our coding knowledge, together.
 
 ## 005 - Gamer Button
 <img src="/005_gamer_button/code.png" width="250px"/>
+
+## 006 - Backdrop Blur
+<img src="/006_backdrop/screenshots/code.png" width="250px"/>
