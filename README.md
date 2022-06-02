@@ -18,3 +18,6 @@ Here I'll post some css tricks so we can improve our coding knowledge, together.
 
 ## 006 - Backdrop Blur
 <img src="/006_backdrop/screenshots/code.png" width="250px"/>
+
+## 007 - Accent Color
+<img src="/007_accent_color/screenshots/code.png" width="250px"/>

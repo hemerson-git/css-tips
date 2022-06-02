@@ -1,0 +1,50 @@
+:root {
+  --dark: #001B2E;
+  --info: #89BBFE;
+  --light: #CAE5FF;
+  --warning: #F1FFC4;
+  --danger: #F26A8D;
+  --success: #478978;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--dark);
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+label {
+  color: var(--light);
+}
+
+.ml-1 {
+  margin-left: .5rem;
+}
+
+input,
+progress {
+  margin-bottom: 16px;
+}
+
+:root {
+  --danger: #F26A8D;
+}
+
+input,
+progress {
+  accent-color: var(--danger);
+}
