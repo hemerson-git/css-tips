@@ -22,5 +22,8 @@ Here I'll post some css tricks so we can improve our coding knowledge, together.
 ## 007 - Accent Color
 <img src="/007_accent_color/screenshots/code.png" width="250px"/>
 
-## 008 - Clamp
+## 008 - Box-shadow vs drop shadow
+<img src="/008_shadow_vs_box/assets/imgs/code.png" width="250px"/>
+
+## 009 - Clamp
 <img src="/008_clamp/assets/imgs/code.png" width="250px"/>

@@ -1,0 +1,52 @@
+:root {
+  --dark: #001b2e;
+  --info: #89bbfe;
+  --light: #cae5ff;
+  --warning: #f1ffc4;
+  --danger: #f26a8d;
+  --success: #478978;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--dark);
+  gap: 16px;
+  padding: 16px;
+}
+
+.container > div {
+  color: white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.normal {
+  background-color: var(--danger);
+}
+
+.clamp {
+  background-color: var(--success);
+}
+
+.normal {
+  min-width: 650px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.clamp {
+  width: clamp(650px, 100%, 800px);
+}
