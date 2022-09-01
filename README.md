@@ -26,4 +26,7 @@ Here I'll post some css tricks so we can improve our coding knowledge, together.
 <img src="/008_shadow_vs_box/assets/imgs/code.png" width="250px"/>
 
 ## 009 - Clamp
-<img src="/008_clamp/assets/imgs/code.png" width="250px"/>
+<img src="/009_clamp/assets/imgs/code.png" width="250px"/>
+
+## 010 - CSS is
+<img src="/010_css_is/assets/imgs/code.png" width="250px"/>
