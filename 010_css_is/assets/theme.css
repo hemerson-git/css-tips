@@ -1,0 +1,35 @@
+:root {
+  --primary-100: #e6ddf0;
+  --primary-200: #dbcee9;
+  --primary-300: #cfbde2;
+  --primary-400: #c1aad9;
+  --primary-500: #b194cf;
+  --primary-700: #5e239d;
+  --primary-900: #141b41;
+
+  --secondary-500: #99b6d2;
+  --secondary-600: #5f8db8;
+  --secondary-700: #174168;
+
+  --green-700: #1d7d1c;
+  --green-500: #279e25;
+  --green-300: #7bc47a;
+
+  --gray-700: #443c4d;
+  --gray-600: #73687d;
+  --gray-500: #8e8697;
+  --gray-400: #a49dab;
+  --gray-300: #c6c2cb;
+  --gray-200: #e2e0e4;
+  --gray-100: #faf9fa;
+
+  --white: #ffffff;
+
+  --font-xs: 12;
+  --font-sm: 14;
+  --font-md: 16;
+  --font-lg: 20;
+
+  --heading: Inter_700Bold;
+  --body: "Nunito-sans", sans-serif;
+}
