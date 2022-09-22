@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>011 - Border Radius</title>
+
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script src="./assets/scripts.js"></script>
+</head>
+
+<body>
+  <main class="container">
+    <div class="center card">
+      <span>border-radius: all;</span>
+      <code>border-radius: 50%;</code>
+
+      <span class="border-x">
+        <span>a</span>
+        <span>b</span>
+      </span>
+
+      <div class="border-item border-1"></div>
+
+      <span class="border-x">
+        <span>c</span>
+        <span>d</span>
+      </span>
+    </div>
+
+    <div class="center card">
+      <span>border-radius: ac bd;</span>
+      <code>border-radius: 50% 25%;</code>
+
+      <span class="border-x">
+        <span>a</span>
+        <span>b</span>
+      </span>
+
+      <div class="border-item border-2"></div>
+
+      <span class="border-x">
+        <span>c</span>
+        <span>d</span>
+      </span>
+    </div>
+
+    <div class="center card">
+      <span>border-radius: a b c d;</span>
+      <code>border-radius: 50% 25% 10% 5%;</code>
+
+      <span class="border-x">
+        <span>a</span>
+        <span>b</span>
+      </span>
+
+      <div class="border-item border-3"></div>
+
+      <span class="border-x">
+        <span>c</span>
+        <span>d</span>
+      </span>
+    </div>
+
+    <div class="center card">
+      <span>border-radius: a b c d / <span class="secondary">e f g h;</span></span>
+      <code>border-radius: 70% 30% 30% 70% / <span class="secondary">60% 40% 60% 40%</span></code>
+
+
+      <div class="pos-relative">
+        <span class="border-x">
+          <span>a</span>
+          <span>b</span>
+        </span>
+
+        <span class="border-y">
+          <span>e</span>
+          <span>f</span>
+        </span>
+
+        <div class="border-item border-4"></div>
+
+        <span class="border-x">
+          <span>c</span>
+          <span>d</span>
+        </span>
+
+        <span class="border-y bottom">
+          <span>g</span>
+          <span>h</span>
+        </span>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

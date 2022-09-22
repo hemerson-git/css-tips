@@ -1,0 +1,119 @@
+@import url("./theme.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 2.5rem;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, var(--primary-700), var(--primary-900));
+  padding: 100px;
+}
+
+.card {
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+legend {
+  position: fixed;
+  right: 240px;
+  bottom: 140px;
+
+  color: var(--primary-700);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-500);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+code {
+  display: block;
+  color: var(--primary-100);
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+span {
+  color: var(--primary-200);
+  font-size: 1.2rem;
+}
+
+.border-item {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(
+    45deg,
+    var(--primary-500),
+    var(--primary-300),
+    var(--secondary-500)
+  );
+}
+
+.border-item legend {
+  background-color: var(--primary-200);
+}
+
+.border-1 {
+  border-radius: 50%;
+}
+
+.border-2 {
+  border-radius: 50% 25%;
+}
+
+.border-3 {
+  border-radius: 50% 25% 10% 5%;
+}
+
+.border-4 {
+  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+}
+
+.border-x {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.border-y {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+}
+
+.secondary,
+.border-y span {
+  color: var(--secondary-500);
+  font-weight: bold;
+}
+
+.bottom {
+  top: 90px;
+}
+
+.pos-relative {
+  position: relative;
+}
