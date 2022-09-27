@@ -13,8 +13,8 @@
   flex-wrap: wrap;
 
   gap: 2.5rem;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
   background: linear-gradient(135deg, var(--primary-700), var(--primary-900));
   padding: 100px;
 }
@@ -59,8 +59,8 @@ span {
 
 .border-item {
   position: relative;
-  width: 100px;
-  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
   background: linear-gradient(
     45deg,
     var(--primary-500),
@@ -73,13 +73,29 @@ span {
   background-color: var(--primary-200);
 }
 
+/* One Value, will apply to all sides of the border
+
+Um valor, será aplicado para todas as bordas */
+
 .border-1 {
   border-radius: 50%;
 }
 
+/* Two Values, the first it's the upper left, and lower right border,
+ The second one is the lower left, and the upper right borders
+
+ Com dois valores, o primeiro será aplicado à borda superior esquerda, e inferior direita
+ O segundo valor, será aplicado à borda inferior esquerda, e superior direita */
+
 .border-2 {
   border-radius: 50% 25%;
 }
+
+/* Four Values, It will be applied will be applied clockwise, starting from the
+Upper left corner
+
+Para quatro valores, eles serão aplicados em sentido horário, começando pela
+borda superior esquerda. */
 
 .border-3 {
   border-radius: 50% 25% 10% 5%;
@@ -88,6 +104,28 @@ span {
 .border-4 {
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
 }
+
+/** 
+  Here is where things go cool, and maybe a little bit complexes. 
+  So, the numbers before the slash are about horizontal distances
+  And the numbers after the slash are about vertical distances
+
+  Ex: border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+      border-radius:  a   b   c   d  /  e   f   g   h;
+  As you can see in the image (next) the border starts from 70%
+  of the upper line (A - B), and goes til 60% of the left line (E - G).
+*/
+
+/** 
+  Aqui é onde as coisas ficam legais, e talvez um pouco complexas.
+  Então, os números antes da barra, refenciam às distâncias horizontais,
+  E os números depois da barra, refenciam às distâncias verticais
+
+  Ex: border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+      border-radius:  a   b   c   d  /  e   f   g   h;
+  Como vocês podem ver na imagem a seguir o arredondamento começa aos 70%
+  da parte superior (A - B), e vai até 60% do lado (E - G).
+*/
 
 .border-x {
   display: flex;

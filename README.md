@@ -30,3 +30,6 @@ Here I'll post some css tricks so we can improve our coding knowledge, together.
 
 ## 010 - CSS is
 <img src="/010_css_is/assets/imgs/code.png" width="250px"/>
+
+## 011 - Border Radius 
+<img src="/011_css_is/assets/imgs/code.png" width="250px"/>
