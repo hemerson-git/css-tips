@@ -1,14 +1,66 @@
 :root {
-  --background: #1e1b18;
-  --primary: #89608E;
-  --success: #40F99B;
-  --info: #66D7D1;
-  --light: #fffaff;
-  --danger: #ff0035;
-  --warning: #f9dc5c;
+  --primary-100: #e6ddf0;
+  --primary-200: #dbcee9;
+  --primary-300: #cfbde2;
+  --primary-400: #c1aad9;
+  --primary-500: #b194cf;
+  --primary-700: #5e239d;
+  --primary-900: #141b41;
+
+  --secondary-500: #99b6d2;
+  --secondary-600: #5f8db8;
+  --secondary-700: #174168;
+
+  --green-700: #1d7d1c;
+  --green-500: #279e25;
+  --green-300: #7bc47a;
+
+  --gray-700: #443c4d;
+  --gray-600: #73687d;
+  --gray-500: #8e8697;
+  --gray-400: #a49dab;
+  --gray-300: #c6c2cb;
+  --gray-200: #e2e0e4;
+  --gray-100: #faf9fa;
+
+  --white: #ffffff;
+
+  --font-mono: "JetBrains Mono", monospace;
+  --font-cursive: "Kaushan Script", cursive;
 }
 
 body {
-  background-color: var(--background);
+  background-color: var(--primary-900);
   color: var(--light);
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+html,
+button,
+a,
+input,
+textarea {
+  font-family: var(--font-mono);
+}
+
+.btn {
+  font-size: 0.875rem;
+}
+
+.btn-primary {
+  background-color: var(--primary-500);
+  border-color: var(--primary-700);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-700);
+  border-color: var(--primary-500);
+}
+
+.title {
+  font-family: var(--font-mono);
+  font-weight: bold;
 }
